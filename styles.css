@@ -1,0 +1,75 @@
+body {
+    background-color: #22254b;
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    color: brown
+}
+
+.heading {
+    background-color: #373b69;
+}
+
+.web-series {
+    -webkit-box-shadow: 6px 6px 7px 4px #000000;
+    box-shadow: 6px 6px 7px 4px #000000;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.info {
+    background-color: #373b69;
+    color: white;
+    width: 300px;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 0px;
+    font-size: medium;
+}
+
+.rating h6 {
+    margin-right: 8px;
+    background-color: #22254b;
+    border-radius: 5px;
+    color: coral;
+    padding: 5px;
+}
+
+#input-text {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.footer {
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+
+.overview {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 300px;
+    transform: translateY(101%);
+    overflow-y: auto;
+    transition: transform 0.3s ease-in;
+}
+
+.web-series:hover .overview {
+    transform: translateY(0);
+    bottom: 0%;
+}

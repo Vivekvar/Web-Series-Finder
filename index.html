@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Series FInder</title>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row heading">
+            <div class="col m-4 p-3 d-flex justify-content-start">
+                <h1 class="text-center">WEB SERIES FINDER</h1>
+            </div>
+            <div class="col m-4 p-3 d-flex justify-content-end">
+                <input type="text" id="input-text" onkeyup="search()" placeholder="Search for web series..">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center m-5">Indian Web Series</h3>
+            </div>
+        </div>
+
+        <div class="row p-4 justify-space-around main-content" id="all-data-indian">
+            <div class="web-series">
+                <img src="/images/mirzapur.jpg" alt="Mirzapur" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Mirzapur</p>
+                        <h6>On Amazon Prime</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.4</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>In UP heartland of Mirzapur, two brothers of a middle class family look forward to a better future. One day they are compelled to take a path of no return, turning into lions of Mirzapur by working for King of Mirzapur. However, their rise leaves the prince of Mirzapur breathless. Will the violence and power get to head of either of them and what destruction lies ahead?</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/scam-1992.jfif" alt="Scam 1992" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Scam 1992</p>
+                        <h6>On Sony Liv</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 9.6</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Set in early 90's Bombay, Scam 1992: The Harshad Mehta Story captures the meteoric rise and fall of Harshad Mehta- the flamboyant big bull of the stock market. When feisty financial journalist Sucheta Dalal exposed him as the man behind India's biggest financial scam of the time, it shook the nation.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/the-family-man.jpg" alt="The Family Man" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>The Family Man</p>
+                        <h6>On Amazon Prime</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.8</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>The Family Man is an edgy action-drama series, which tells the story of a middle-class man who works for a special cell of the National Investigation Agency. While he tries to protect the nation from terrorists, he also has to protect his family from the impact of his secretive, high-pressure, and low paying job.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/aspirants.jpg" alt="Aspirants" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Aspirants</p>
+                        <h6>On YouTube</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 9.7</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Aspirants is a story of 3 friends - Abhilash, Shwetketu(SK) and Guri. The story revolves around the past and the present time where the past captures the struggle and the drama behind the making of UPSC CSE aspirants in Old Rajinder Nagar of Delhi, while the present talks about the aftermath. It is the story of three UPSC aspirant's journey and most importantly - their friendship besides all odds!</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/kota-factory.jpg" alt="Kota Factory" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Kota Factory</p>
+                        <h6>On YouTube</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 9.2</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Dedicated to Shrimati SL Loney ji, Shri Irodov ji and Maanniya HC Verma ji, 'Kota Factory' is TVF's latest original. India's first 'Black and White' show highlights the problems present day IIT-JEE aspirants face in their day-to-day lives.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/special-ops.jpg" alt="Special Ops" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Special Ops</p>
+                        <h6>On Hotstar</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.6</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>The series follows Himmat Singh of Research and Analysis Wing who draws similar patterns in terrorist attacks and is convinced a single person is behind all the attacks. His task force team of five agents living in various parts of the world aim to catch the mastermind. The story is based on an inspiration taken from nineteen years worth of national significant events.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/asur.jpg" alt="Asur" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Asur</p>
+                        <h6>On Voot Select</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.5</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>A psychopath killer with a twisted philosophy deep-seated in Indian mythology is on the loose. Two forensic officers from the CBI are close on heals to catch the serial killer but with a twist of fate, they get caught in a dreadful situation. How will this end? Will the real face of this ASUR be revealed?</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/paatal-lok.jpg" alt="Paatal Lok" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Paatal Lok</p>
+                        <h6>On Amazon Prime</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 7.8</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>A down and out cop lands the case of a lifetime when four suspects are nabbed in the assassination attempt of a prime time journalist. The case turns out to be a devious maze where nothing is what it looks like. The pursuit of it leads him to the dark netherworld - the 'Paatal Lok', and to shocking discoveries in the past of the four suspects.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/breathe-into-the-shadows.jpg" alt="Breathe Into The Shadows" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Breathe Into The Shadows</p>
+                        <h6>On Prime</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.3</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>A 6-year-old is kidnapped by a mysterious masked man, who demands an unusual ransom. To save his daughter, Dr. Avinash Sabharwal must kill someone. Meanwhile, Kabir Sawant's journey continues in the hostile environment of the Delhi Crime branch. Lies, deceit and mind games begin when Kabir is given charge of the investigation, and meets Avinash. How far will Avinash go to save his daughter?</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/sacred-games.jpg" alt="Sacred Games" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Sacred Games</p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.6</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>When police officer Sartaj Singh receives an anonymous tip about the location of criminal overlord Ganesh Gaitonde, he embarks on a chase around Mumbai in what becomes a dangerous cat-and-mouse game. Amidst the chaos, trappings of a corrupt underworld are revealed. After being removed from the Gaitonde case, Singh begins his own investigation as he works to save Mumbai from impending doom. Flashbacks reveal some of the crimes that Gaitonde has committed through the years.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/gullak.jfif" alt="Gullak" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Gullak</p>
+                        <h6>On Sony Liv</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 9.2</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Set in quaint by-lanes in the heart of India, Gullak is a collection of disarming and relatable tales of the Mishra family. Join Santosh and Shanti Mishra, their sons Annu and Aman, as they savour the many flavours of a small-town life with a smattering of humour, wit and of course, ladleful's of love.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/made-in-heaven.jfif" alt="Made In Heaven" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Made In Heaven</p>
+                        <h6>On Amazon Prime</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.3</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Made In Heaven chronicles the lives of Tara and Karan, two wedding planners based in Delhi. India is a potent blend of old and new. Tradition jostles with modern aspirations against the backdrop of a Big Fat Indian Wedding revealing many secrets and many lies. The supposedly liberal fabric of the upper crust unravels as the duo navigate through arranged marriages, dowry transactions and virginity tests.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/aarya.jpg" alt="Aarya" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Aarya</p>
+                        <h6>On Hotstar</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 7.9</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Tej Sareen lives with his wife Aarya and three kids Veer,Arundati and Aditya he runs a pharmaceutical company with friend Jawahar and Arrya's brother Sangram.The companies business is not fully legal Sangram and Jawahar come with an idea of transporting heroin but Tej is against it they are attacked by some goons where Tej finds that they have looted heroin of a powerful person Shekhawat.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/hostages.jpg" alt="Hostages" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Hostages</p>
+                        <h6>On Hotstar</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 6.9</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Surgeon Dr. Mira Anand (Tisca Chopra) is scheduled to perform a routine operation on the chief minister, but the night before the procedure, her family is taken hostage and she is ordered to assassinate her unwitting patient in order to save her family, forcing her to make a decision.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/bandish-bandits.jpg" alt="Bandish Bandits" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Bandish Bandits</p>
+                        <h6>On Amazon Prime</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.7</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Bandish bandits is a refreshing breath of music and youthful love. A big city girl and a small town guy are driven to be the best in genre come together to collaborate due to personal goals. With time their respect for each other as well as music genre grows, which takes the shape of love. However, things go awry on personal front. Will they be able to achieve their goals and make a comeback together?</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/your-honor.jpg" alt="Your Honor" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Your Honor</p>
+                        <h6>On Sony Liv</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 7.4</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>As the son of a reputed judge gets involved in a hit and run, we see how even the most upright people break In order to save their family. The judge sacrifices relationships and subverts the law to save his son from a vengeful gangster.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center m-5">Other Web Series</h3>
+            </div>
+        </div>
+
+        <div class="row p-4 justify-space-around main-content" id="all-data-other">
+            <div class="web-series">
+                <img src="/images/stranger-things.jpg" alt="Stranger Things" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Stranger Things</p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.7</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>After the mysterious and sudden vanishing of a young boy, the people of a small town begin to uncover secrets of a government lab, portals to another world and sinister monsters. The boy's mother (Joyce) desperately tries to find him, convinced he is in grave danger, while the police chief searches for answers. Trying to help find him, the boy's friends discover a strange little girl, who is on the run from "bad men".</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/suits.webp" alt="Suits" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Suits</p>
+                        <h6>TV Series</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.4</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>While running from a drug deal gone bad, brilliant young college-dropout Mike Ross slips into a job interview with one of New York City's best legal closers, Harvey Specter. Tired of cookie-cutter law school grads, Harvey takes a gamble by hiring Mike on the spot after recognizing his raw talent and photographic memory.  Proving to be an irreplacable duo and invaluable to the practice, Mike and Harvey must keep their secret from everyone.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/money-heist.jpg" alt="Money Heist" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Money Heist</p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.3</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span><strong>#BELLA CIAO</strong><br>This original Netflix series, originally titled La Casa de Papel, follows the Professor, a criminal mastermind who brings eight thieves together to take hostages and lock themselves in the Royal Mint of Spain as he manipulates the police to carry out his plan.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/breaking-bad.jpg" alt="Breaking Bad" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Breaking Bad</p>
+                        <h6>TV Series</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 9.4</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>A once loyal father and chemistry teacher, Walter White, turns to a life of crime due to developing stage 3 terminal lung cancer. He is told he has two years to live. Teaming up with one of his high school students, Jesse Pinkman, he grows in power, battles anyone in his way and raises a family - all whilst hiding from his brother-in-law who works for the DEA.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/the-witcher.jpg" alt="The Witcher" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>The Witcher </p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.2</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>It is based on the book series of the same name by Polish writer Andrzej Sapkowski. The Witcher follows the story of Geralt of Rivia, a solitary monster hunter, who struggles to find his place in a world where people often prove more wicked than monsters and beasts. But when destiny hurtles him toward a powerful sorceress, and a young princess with a special gift, the three must learn to navigate independently the increasingly volatile Continent.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/loki.webp" alt="Loki" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Loki </p>
+                        <h6>On Disney+Hotstar</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.5</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.” Loki revolves around the mischievous villain escaping the clutches of The Avengers and getting caught by the Time Variance Authority. This sends him on a mission to catch the different antagonist who has been troubling the timelines.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/prison-break.jpg" alt="Prison Break" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Prison Break </p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.3</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Lincoln Burrows (Dominic Purcell) has been framed for the murder of the Vice Presidents brother, and is now awaiting execution on death row. Lincolns brother, Michael Scofield (Wentworth Miller), makes it his mission to deliberately get sent to the same prison as his brother, and break him out before his execution.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/13-reasons-why.jpg" alt="13 Reasons Why" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>13 Reasons Why</p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 7.6</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>The recordings of a girl named Hannah Baker who commited suicide, helping her lover Clay Jensen uncover the story behind her suicide and confronting each and every single of the culprits who lead her to commit suicide. The story is a dark route of a girl who faces unfaithful behaviors of the people from her new residental school and so called friends.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/dark.jpg" alt="Dark" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Dark</p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.8</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>When two children go missing in a small German town, its sinful past is exposed along with the double lives and fractured relationships that exist among four families as they search for the kids. The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to the town's troubled history - whether they know it or not.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/game-of-thrones.jpg" alt="Game Of Thrones" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Game Of Thrones</p>
+                        <h6>On Hotstar</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 9.2</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/the-walking-dead.jpg" alt="The Walking Dead" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>The Walking Dead</p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.2</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Sherrif Deputy Rick Grimes has been shot. He falls into a coma and wakes up in a hospital, only to find that it is in ruins. He finds a group of survivors and adapts himself to the only survivors left in the city, then little did he know he soon becomes known as the leader. Sherrif Deputy Rick Grimes has to get the small group he attached himself to to safety, food and water. The only thing that stops them is the Walkers, also known as Zombies.</span>
+                </div>
+            </div>
+
+            <div class="web-series">
+                <img src="/images/lucifer.jpeg" alt="Lucifer" height="400px" width="300px">
+                <div class="row info">
+                    <div class="col">
+                        <p>Lucifer</p>
+                        <h6>On Netflix</h6>
+                    </div>
+                    <div class="col rating">
+                        <h6>IMDB Rating <br> 8.1</h6>
+                    </div>
+                </div>
+                <div class="overview">
+                    <h5>Overview</h5>
+                    <span>Lucifer Morningstar, bored from his sulking life in hell, comes to live in Los Angeles. While there, he helps humanity with its miseries through his experience and telepathic abilities to bring people's deepest desires and thoughts out of them. While meeting with a Detective in his nightclub (Lux), a shootout involving him and the Detective leads him to become an LAPD consultant who tries to punish people for their crimes through law and justice.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-4">
+            <div class="col">
+                <p class="text-center footer">Made with <i class="em em-heart " aria-role="presentation " aria-label="HEAVY BLACK HEART "></i> in India by <strong><a href="https://drive.google.com/file/d/1Yaj0lEsf1gCs9HHjHmt7hSwrMJyI4raj/view " target="_blank "> Vivek Varshney</a></strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
